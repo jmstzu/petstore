@@ -1,0 +1,18 @@
+/* PetList.css */
+.pet-image {
+    width: 250px; /* Set the width to medium size */
+    height: auto; /* Auto height to maintain aspect ratio */
+    object-fit: cover; /* Makes sure the image fits without distortion */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+.title {
+    color: white;
+}
+
+.maintitle {
+    color: white;
+}
+  

@@ -1,0 +1,90 @@
+/* AddPet.css */
+
+/* Overall container styling */
+.add-pet-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+  }
+  
+  /* Heading styling */
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    color: black; /* Set text color to black */
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    color: black; /* Set label text color to black */
+  }
+  
+  /* Input and textarea fields styling */
+  input,
+  textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+    color: black; /* Set text color inside input/textarea to black */
+  }
+  
+  /* Input/textarea focus effect */
+  input:focus,
+  textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Success/failure message styling */
+  p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  p.success {
+    color: #4CAF50;
+  }
+  
+  p.error {
+    color: #ff6347;
+  }
+  
